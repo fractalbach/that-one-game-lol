@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open</title>
+</head>
+
+<body>
+
+    <div id="container"><br/>Generating...</div>
+
+    <script type="text/javascript" src="lib/module.js"></script>
+    <script async type="text/javascript" src="terrain.min.js"></script> <!todo: async>
+    <script type="text/javascript" src="lib/kotlin.js"></script>
+    <script type="text/javascript" src="lib/three.min.js"></script>
+    <script type="text/javascript" src="lib/uuid-random.min.js"></script>
+    <script type="text/javascript" src="client.js" onload="client.startCore()"></script>
+
+<style>
+body {background: black;}
+#container, canvas {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+bottom: 0;
+margin: auto;
+min-height: 100%;
+max-height: 100%;
+}
+canvas {
+    position: fixed;
+}
+</style>
+
+
+    
+</body>
+
+</html>
